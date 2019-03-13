@@ -1,11 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>WG Forge Test</title>
-</head>
-<body>
-    <div id="app"></div>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <link rel="stylesheet" href="../css/main.css">
+    <script type="text/javascript" src="../data/orders.json"></script> -->
     <script src="bundle.js"></script>
-</body>
+    <title>WG Forge Test</title>
+  </head>
+  <body>
+    <div id="app">
+      <table>
+        <thead>
+          <tr>
+            <th>Transaction ID</th>
+            <th>User Info</th>
+            <th>Order Date</th>
+            <th>Order Amount</th>
+            <th>Card Number</th>
+            <th>Card Type</th>
+            <th>Location</th>
+          </tr>
+        </thead>
+        <tbody id="orders"></tbody>
+      </table>
+    </div>
+  </body>
 </html>
